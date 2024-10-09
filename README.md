@@ -8,10 +8,10 @@ Develop a Python program that implements a Monte Carlo control algorithm to find
 
 ## MONTE CARLO CONTROL ALGORITHM
 
-1.Initialize Q(s, a) and returns(s, a) arbitrarily, and set an initial policy π(s) (e.g., ε-greedy).
-2.For each episode, generate an episode using policy π.
-3.For each state-action pair (s, a) in the episode, compute the return G, update returns(s, a), and set Q(s, a) to the average of returns.
-4.Update policy π(s) based on the updated Q(s, a).
+    1.Initialize Q(s, a) and returns(s, a) arbitrarily, and set an initial policy π(s) (e.g., ε-greedy).
+    2.For each episode, generate an episode using policy π.
+    3.For each state-action pair (s, a) in the episode, compute the return G, update returns(s, a), and set Q(s, a) to the average of returns.
+    4.Update policy π(s) based on the updated Q(s, a).
 
 ## MONTE CARLO CONTROL FUNCTION
 ```py
